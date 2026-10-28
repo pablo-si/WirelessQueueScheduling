@@ -7,7 +7,7 @@ A Python simulation of **wireless packet scheduling for 12 users** with time-var
 At each time slot, the scheduler chooses **one user** to serve. Queue lengths evolve through packet arrivals and transmission, while channel service rates follow a synthetic 12-user trace. The objective balances delivered packets against packet losses:
 
 $$
-\mathrm{reward} = \mathrm{packets\ transmitted} - 2\times\mathrm{packets\ dropped}
+\mathrm{reward} = \mathrm{packets\ transmitted} - \lambda\times\mathrm{packets\ dropped}
 $$
 
 The simulation uses a queue capacity of **30 packets per user** and service-rate levels **1, 2, 3, 4, 6, 8, 10, and 12**.
