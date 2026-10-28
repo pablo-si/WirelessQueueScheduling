@@ -32,4 +32,4 @@ The simulation uses a queue capacity of **30 packets per user** and service-rate
 
 ## Interpretation
 
-The aim is to study the trade-off between **throughput, packet drops, and queue occupancy** under changing wireless conditions. A definitive performance ranking between DQN and the baseline schedulers requires running their comparison cells and reviewing the resulting figures; the saved notebook only contains DQN evaluation output.
+The aim is to study the trade-off between **throughput, packet drops, and queue occupancy** under changing wireless conditions. 
